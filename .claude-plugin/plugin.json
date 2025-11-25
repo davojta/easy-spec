@@ -1,0 +1,8 @@
+{
+    "name": "easy-spec",
+    "description": "A simplified toolkit for generating research, specifications, plans, and tasks for feature development workflows",
+    "version": "0.0.1",
+    "author": {
+        "name": "Dzianis Sheka"
+    }
+}
