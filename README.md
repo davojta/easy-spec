@@ -1,4 +1,27 @@
-# Custom Claude Code Commands
+# Easy Spec - Claude Code Plugin & Marketplace
+
+A simplified toolkit for generating research, specifications, plans, and tasks for feature development workflows.
+
+## 📦 Installation
+
+### Option 1: Install from this marketplace
+
+```bash
+# Add this marketplace
+/plugin marketplace add dzianis/easy-spec
+
+# Install the easy-spec plugin
+/plugin install easy-spec@dzianis/easy-spec
+```
+
+### Option 2: Install directly
+
+```bash
+# Install the plugin directly from GitHub
+/plugin install https://github.com/dzianis/easy-spec
+```
+
+## 🚀 Available Commands
 
 This directory contains custom slash commands for automating common workflows.
 
