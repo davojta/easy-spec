@@ -1,20 +1,20 @@
 {
-  "name": "easy-spec-marketplace",
+  "name": "davojta",
   "owner": {
     "name": "Dzianis Sheka",
-    "email": "dzianis.sheka@example.com"
+    "email": "dzianis.sheka@gmail.com"
   },
   "description": "A marketplace for easy-spec plugin and related development workflow tools",
-  "homepage": "https://github.com/dzianis/easy-spec",
+  "homepage": "https://github.com/davojta/easy-spec",
   "plugins": [
     {
       "name": "easy-spec",
-      "source": "./",
+      "source": "./easy-spec",
       "description": "A simplified toolkit for generating research, specifications, plans, and tasks for feature development workflows",
       "version": "0.0.1",
       "license": "MIT",
-      "homepage": "https://github.com/dzianis/easy-spec#readme",
-      "repository": "https://github.com/dzianis/easy-spec",
+      "homepage": "https://github.com/davojta/easy-spec#readme",
+      "repository": "https://github.com/davojta/easy-spec",
       "author": {
         "name": "Dzianis Sheka"
       },
@@ -26,11 +26,11 @@
         "claude-code"
       ],
       "commands": [
-        "research",
-        "spec",
-        "plan",
-        "tasks",
-        "execute"
+        "./commands/research.md",
+        "./commands/spec.md",
+        "./commands/plan.md",
+        "./commands/tasks.md",
+        "./commands/execute.md"
       ]
     }
   ]
